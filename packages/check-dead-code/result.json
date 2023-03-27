@@ -1,0 +1,4751 @@
+{
+  "@lodestar/api": [
+    {
+      "value": "HttpErrorCodes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "HttpSuccessCodes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "IHttpClient",
+      "isUsedInModule": false
+    },
+    {
+      "value": "HttpClientOptions",
+      "isUsedInModule": false
+    },
+    {
+      "value": "HttpClientModules",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Metrics",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ApiNamespace",
+      "isUsedInModule": false
+    },
+    {
+      "value": "APIClientHandler",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ApiClientSuccessResponse",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ApiClientSErrorResponse",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ApiClientResponse",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ApiClientResponseData",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GenericRequestObject",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GenericResponseObject",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ClientApi",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ImportStatus",
+      "isUsedInModule": false
+    },
+    {
+      "value": "DeletionStatus",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ImportRemoteKeyStatus",
+      "isUsedInModule": false
+    },
+    {
+      "value": "DeleteRemoteKeyStatus",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ResponseStatus",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignerDefinition",
+      "isUsedInModule": false
+    },
+    {
+      "value": "KeystoreStr",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SlashingProtectionData",
+      "isUsedInModule": false
+    },
+    {
+      "value": "PubkeyHex",
+      "isUsedInModule": false
+    },
+    {
+      "value": "FeeRecipientData",
+      "isUsedInModule": true
+    },
+    {
+      "value": "GasLimitData",
+      "isUsedInModule": true
+    },
+    {
+      "value": "compileRouteUrlFormater",
+      "isUsedInModule": false
+    },
+    {
+      "value": "toColonNotationPath",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getFastifySchema",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SchemaDefinition",
+      "isUsedInModule": false
+    },
+    {
+      "value": "RouteGroupDefinition",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ReqGenArg",
+      "isUsedInModule": false
+    },
+    {
+      "value": "KeysOfNonVoidResolve"value"s",
+      "isUsedInModule": false
+    },
+    {
+      "value": "querySerializeProofPathsArr",
+      "isUsedInModule": false
+    },
+    {
+      "value": "queryParseProofPathsArr",
+      "isUsedInModule": false
+    },
+    {
+      "value": "queryParseProofPaths",
+      "isUsedInModule": true
+    },
+    {
+      "value": "fromU64StrOpt",
+      "isUsedInModule": false
+    },
+    {
+      "value": "toU64StrOpt",
+      "isUsedInModule": false
+    },
+    {
+      "value": "U64",
+      "isUsedInModule": true
+    },
+    {
+      "value": "serializeSSEEvent",
+      "isUsedInModule": true
+    },
+    {
+      "value": "registerRoutes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "RouteConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "registerRoutes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "RouteConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "registerRoutes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "RouteConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "getFetchOptsSerializer",
+      "isUsedInModule": false
+    },
+    {
+      "value": "URLOpts",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Gauge",
+      "isUsedInModule": true
+    },
+    {
+      "value": "Histogram",
+      "isUsedInModule": true
+    },
+    {
+      "value": "FastifyHandler",
+      "isUsedInModule": false
+    }
+  ],
+  "@lodestar/beacon-node": [
+    {
+      "value": "initStateFromAnchorState",
+      "isUsedInModule": false
+    },
+    {
+      "value": "initStateFromDb",
+      "isUsedInModule": false
+    },
+    {
+      "value": "initStateFromEth1",
+      "isUsedInModule": false
+    },
+    {
+      "value": "IBeaconDb",
+      "isUsedInModule": false
+    },
+    {
+      "value": "createNodeJsLibp2p",
+      "isUsedInModule": false
+    },
+    {
+      "value": "NodeJsLibp2pOpts",
+      "isUsedInModule": false
+    },
+    {
+      "value": "RestApiServerMetrics",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconNodeModules",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconNodeInitModules",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconNodeStatus",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getValidatorApi",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getBeaconApi",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getNodeApi",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getEventsApi",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ApiModules",
+      "isUsedInModule": false
+    },
+    {
+      "value": "beaconRestApiServerOpts",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconRestApiServerModules",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BlockType",
+      "isUsedInModule": false
+    },
+    {
+      "value": "AssembledBlockType",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ProposerPreparationData",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SSZObjectType",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ReorgEventData",
+      "isUsedInModule": false
+    },
+    {
+      "value": "IChainEvents",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ForkChoiceOpts",
+      "isUsedInModule": false
+    },
+    {
+      "value": "persistGenesisResult",
+      "isUsedInModule": false
+    },
+    {
+      "value": "persistAnchorState",
+      "isUsedInModule": false
+    },
+    {
+      "value": "createGenesisBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "StateContextCache",
+      "isUsedInModule": false
+    },
+    {
+      "value": "toCheckpointHex",
+      "isUsedInModule": false
+    },
+    {
+      "value": "toCheckpointKey",
+      "isUsedInModule": false
+    },
+    {
+      "value": "CheckpointStateCache",
+      "isUsedInModule": false
+    },
+    {
+      "value": "DEPOSIT_CONTRACT_TREE_DEPTH",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GENESIS_START_SHARD",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ATTESTATION_PROPAGATION_SLOT_RANGE",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GOSSIP_MAX_SIZE",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GOSSIP_MAX_SIZE_BELLATRIX",
+      "isUsedInModule": false
+    },
+    {
+      "value": "MAX_CHUNK_SIZE",
+      "isUsedInModule": false
+    },
+    {
+      "value": "MAX_CHUNK_SIZE_BELLATRIX",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Eth1ErrorType",
+      "isUsedInModule": true
+    },
+    {
+      "value": "getSafeTDFactor",
+      "isUsedInModule": true
+    },
+    {
+      "value": "Eth1Streamer",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getExecutionEngineHttp",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ExecutionEngineHttp",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ExecutionEngineDisabled",
+      "isUsedInModule": false
+    },
+    {
+      "value": "defaultExecutionEngineHttpOpts",
+      "isUsedInModule": false
+    },
+    {
+      "value": "PayloadIdCache",
+      "isUsedInModule": false
+    },
+    {
+      "value": "WithdrawalV1",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ExecutePayloadStatus",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ExecutePayloadResponse",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ForkChoiceUpdateStatus",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ExecutionBuilderHttp",
+      "isUsedInModule": false
+    },
+    {
+      "value": "defaultExecutionBuilderHttpOpts",
+      "isUsedInModule": false
+    },
+    {
+      "value": "HttpMetricsServerOpts",
+      "isUsedInModule": false
+    },
+    {
+      "value": "MonitoringOptions",
+      "isUsedInModule": false
+    },
+    {
+      "value": "defaultMonitoringOptions",
+      "isUsedInModule": false
+    },
+    {
+      "value": "NetworkEvents",
+      "isUsedInModule": false
+    },
+    {
+      "value": "INetworkEventBus",
+      "isUsedInModule": false
+    },
+    {
+      "value": "PeerSearchOptions",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Libp2p",
+      "isUsedInModule": false
+    },
+    {
+      "value": "NetworkInitModules",
+      "isUsedInModule": false
+    },
+    {
+      "value": "createNodejsLibp2p",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Libp2pOptions",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getGossipHandlers",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getCoreTopicsAtFork",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipEncoding",
+      "isUsedInModule": false
+    },
+    {
+      "value": "IGossipTopic",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipTopicTypeMap",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipTopicMap",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipTopic",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipTypeMap",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipFnByType",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipFn",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipEvents",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipEventEmitter",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipModules",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipBeaconNode",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipValidatorFn",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ValidatorFnsByType",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipJobQueues",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipHandlerFn",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipHandlers",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ResolvedType",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ReqRespHandlers",
+      "isUsedInModule": false
+    },
+    {
+      "value": "RequestTypedContainer",
+      "isUsedInModule": false
+    },
+    {
+      "value": "IReqRespBeaconNode",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ReqRespBeaconNodeModules",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ReqRespBeaconNode",
+      "isUsedInModule": false
+    },
+    {
+      "value": "clearMultiaddrUDP",
+      "isUsedInModule": false
+    },
+    {
+      "value": "prettyPrintPeerId",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getConnection",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isPublishToZeroPeersError",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getDefaultDialer",
+      "isUsedInModule": false
+    },
+    {
+      "value": "PeerManagerOpts",
+      "isUsedInModule": false
+    },
+    {
+      "value": "PeerManagerModules",
+      "isUsedInModule": false
+    },
+    {
+      "value": "PeerManager",
+      "isUsedInModule": false
+    },
+    {
+      "value": "updateGossipsubScores",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ScoreState",
+      "isUsedInModule": false
+    },
+    {
+      "value": "IPeerRpcScoreStore",
+      "isUsedInModule": false
+    },
+    {
+      "value": "PeerRpcScoreStoreModules",
+      "isUsedInModule": false
+    },
+    {
+      "value": "PeerScoreStats",
+      "isUsedInModule": false
+    },
+    ... 129 more items
+  ],
+  "@lodestar/config": [
+    {
+      "value": "createChainConfig",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Spec"value"",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Spec"value"Type",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Spec"value"TypeName",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SpecTypes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "createCachedGenesis",
+      "isUsedInModule": false
+    },
+    {
+      "value": "mainnetChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "gnosisChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "goerliChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "ropstenChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "sepoliaChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "chiadoChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "zhejiangChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "NetworkName",
+      "isUsedInModule": true
+    },
+    {
+      "value": "networksChainConfig",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GenesisData",
+      "isUsedInModule": true
+    },
+    {
+      "value": "genesisData",
+      "isUsedInModule": false
+    },
+    {
+      "value": "mainnetChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "minimalChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "toSpec"value"TypeName",
+      "isUsedInModule": true
+    },
+    {
+      "value": "serializeSpec"value"",
+      "isUsedInModule": true
+    },
+    {
+      "value": "deserializeSpec"value"",
+      "isUsedInModule": true
+    }
+  ],
+  "@lodestar/config/default": [
+    {
+      "value": "createChainConfig",
+      "isUsedInModule": false
+    },
+    {
+      "value": "spec"value"sToJson",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ChainConfig",
+      "isUsedInModule": false
+    },
+    {
+      "value": "chainConfigTypes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Spec"value"",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Spec"value"Type",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Spec"value"TypeName",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SpecTypes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "defaultChainConfig",
+      "isUsedInModule": false
+    },
+    {
+      "value": "createCachedGenesis",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ForkDigestContext",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ForkInfo",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ForkConfig",
+      "isUsedInModule": false
+    },
+    {
+      "value": "createChainForkConfig",
+      "isUsedInModule": false
+    },
+    {
+      "value": "createBeaconConfig",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ChainForkConfig",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconConfig",
+      "isUsedInModule": false
+    },
+    {
+      "value": "mainnetChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "gnosisChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "goerliChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "ropstenChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "sepoliaChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "chiadoChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "zhejiangChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "NetworkName",
+      "isUsedInModule": true
+    },
+    {
+      "value": "networksChainConfig",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GenesisData",
+      "isUsedInModule": true
+    },
+    {
+      "value": "genesisData",
+      "isUsedInModule": false
+    },
+    {
+      "value": "mainnetChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "minimalChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "toSpec"value"TypeName",
+      "isUsedInModule": true
+    },
+    {
+      "value": "serializeSpec"value"",
+      "isUsedInModule": true
+    },
+    {
+      "value": "deserializeSpec"value"",
+      "isUsedInModule": true
+    }
+  ],
+  "@lodestar/config/networks": [
+    {
+      "value": "createChainConfig",
+      "isUsedInModule": false
+    },
+    {
+      "value": "spec"value"sToJson",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ChainConfig",
+      "isUsedInModule": false
+    },
+    {
+      "value": "chainConfigTypes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Spec"value"",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Spec"value"Type",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Spec"value"TypeName",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SpecTypes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "defaultChainConfig",
+      "isUsedInModule": false
+    },
+    {
+      "value": "createCachedGenesis",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ForkDigestContext",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ForkInfo",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ForkConfig",
+      "isUsedInModule": false
+    },
+    {
+      "value": "createChainForkConfig",
+      "isUsedInModule": false
+    },
+    {
+      "value": "createBeaconConfig",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ChainForkConfig",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconConfig",
+      "isUsedInModule": false
+    },
+    {
+      "value": "mainnetChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "goerliChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "ropstenChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "sepoliaChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "chiadoChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "zhejiangChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "GenesisData",
+      "isUsedInModule": true
+    },
+    {
+      "value": "mainnetChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "minimalChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "toSpec"value"TypeName",
+      "isUsedInModule": true
+    },
+    {
+      "value": "serializeSpec"value"",
+      "isUsedInModule": true
+    },
+    {
+      "value": "deserializeSpec"value"",
+      "isUsedInModule": true
+    }
+  ],
+  "@lodestar/config/presets": [
+    {
+      "value": "createChainConfig",
+      "isUsedInModule": false
+    },
+    {
+      "value": "spec"value"sToJson",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ChainConfig",
+      "isUsedInModule": false
+    },
+    {
+      "value": "chainConfigTypes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Spec"value"",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Spec"value"Type",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Spec"value"TypeName",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SpecTypes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "defaultChainConfig",
+      "isUsedInModule": false
+    },
+    {
+      "value": "createCachedGenesis",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ForkDigestContext",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ForkInfo",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ForkConfig",
+      "isUsedInModule": false
+    },
+    {
+      "value": "createChainForkConfig",
+      "isUsedInModule": false
+    },
+    {
+      "value": "createBeaconConfig",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ChainForkConfig",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconConfig",
+      "isUsedInModule": false
+    },
+    {
+      "value": "gnosisChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "goerliChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "ropstenChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "sepoliaChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "chiadoChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "zhejiangChainConfig",
+      "isUsedInModule": true
+    },
+    {
+      "value": "NetworkName",
+      "isUsedInModule": true
+    },
+    {
+      "value": "networksChainConfig",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GenesisData",
+      "isUsedInModule": true
+    },
+    {
+      "value": "genesisData",
+      "isUsedInModule": false
+    },
+    {
+      "value": "toSpec"value"TypeName",
+      "isUsedInModule": true
+    },
+    {
+      "value": "serializeSpec"value"",
+      "isUsedInModule": true
+    },
+    {
+      "value": "deserializeSpec"value"",
+      "isUsedInModule": true
+    }
+  ],
+  "@lodestar/db": [
+    {
+      "value": "Key",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LevelDBOptions",
+      "isUsedInModule": true
+    },
+    {
+      "value": "LevelDbControllerModules",
+      "isUsedInModule": true
+    }
+  ],
+  "@lodestar/fork-choice": [
+    {
+      "value": "ProtoNode",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LVHValidResponse",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LVHInvalidResponse",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ForkChoiceOpts",
+      "isUsedInModule": false
+    },
+    {
+      "value": "PowBlockHex",
+      "isUsedInModule": false
+    },
+    {
+      "value": "AncestorResult",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ForkChoiceStore",
+      "isUsedInModule": false
+    },
+    {
+      "value": "JustifiedBalancesGetter",
+      "isUsedInModule": false
+    },
+    {
+      "value": "InvalidAttestation",
+      "isUsedInModule": false
+    },
+    {
+      "value": "InvalidAttestationCode",
+      "isUsedInModule": false
+    },
+    {
+      "value": "InvalidBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "InvalidBlockCode",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ForkChoiceErrorType",
+      "isUsedInModule": true
+    },
+    {
+      "value": "CheckpointHex",
+      "isUsedInModule": false
+    },
+    {
+      "value": "CheckpointsWithHex",
+      "isUsedInModule": false
+    },
+    {
+      "value": "equalCheckpointWithHex",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ProtoArrayErrorType",
+      "isUsedInModule": true
+    },
+    {
+      "value": "DEFAULT_PRUNE_THRESHOLD",
+      "isUsedInModule": true
+    }
+  ],
+  "@lodestar/light-client": [
+    {
+      "value": "LightclientEmitterEvents",
+      "isUsedInModule": true
+    },
+    {
+      "value": "MittEmitter",
+      "isUsedInModule": true
+    },
+    {
+      "value": "SyncCommitteeFast",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GenesisData",
+      "isUsedInModule": true
+    },
+    {
+      "value": "LightclientOpts",
+      "isUsedInModule": true
+    },
+    {
+      "value": "LightclientInitArgs",
+      "isUsedInModule": true
+    },
+    {
+      "value": "assertValidFinalityProof",
+      "isUsedInModule": true
+    },
+    {
+      "value": "assertValidSyncCommitteeProof",
+      "isUsedInModule": true
+    },
+    {
+      "value": "assertValidSignedHeader",
+      "isUsedInModule": true
+    },
+    {
+      "value": "isBetterUpdate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "toLightClientUpdateSummary",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientUpdateSummary",
+      "isUsedInModule": false
+    },
+    {
+      "value": "upgradeLightClientHeader",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isSafeLightClientUpdate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isSafeLightClientUpdate",
+      "isUsedInModule": true
+    },
+    {
+      "value": "LightClientUpdateWithSummary",
+      "isUsedInModule": true
+    },
+    {
+      "value": "upgradeLightClientUpdate",
+      "isUsedInModule": true
+    },
+    {
+      "value": "upgradeLightClientStore",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GENESIS_SLOT",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ZERO_PUBKEY",
+      "isUsedInModule": true
+    },
+    {
+      "value": "LightClientTransport",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientRestEvents",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientRestTransport",
+      "isUsedInModule": false
+    },
+    {
+      "value": "chunkifyInclusiveRange",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getCurrentSlot",
+      "isUsedInModule": false
+    },
+    {
+      "value": "slotWithFutureTolerance",
+      "isUsedInModule": false
+    },
+    {
+      "value": "computeEpochAtSlot",
+      "isUsedInModule": false
+    },
+    {
+      "value": "computeSyncPeriodAtEpoch",
+      "isUsedInModule": false
+    },
+    {
+      "value": "timeUntilNextEpoch",
+      "isUsedInModule": false
+    },
+    {
+      "value": "computeDomain",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getForkVersion",
+      "isUsedInModule": false
+    },
+    {
+      "value": "computeForkDataRoot",
+      "isUsedInModule": false
+    },
+    {
+      "value": "computeSigningRoot",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getLcLoggerConsole",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LogHandler",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ILcLogger",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isBetterUpdate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightclientUpdateStats",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isZeroHash",
+      "isUsedInModule": false
+    },
+    {
+      "value": "assertZeroHashes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getParticipantPubkeys",
+      "isUsedInModule": false
+    },
+    {
+      "value": "toBlockHeader",
+      "isUsedInModule": false
+    },
+    {
+      "value": "serializeSyncCommittee",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isEmptyHeader",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isNode",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SYNC_COMMITTEES_DEPTH",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SYNC_COMMITTEES_INDEX",
+      "isUsedInModule": false
+    },
+    {
+      "value": "pruneSetToMax",
+      "isUsedInModule": false
+    }
+  ],
+  "@lodestar/light-client/validation": [
+    {
+      "value": "LightclientEmitterEvents",
+      "isUsedInModule": true
+    },
+    {
+      "value": "MittEmitter",
+      "isUsedInModule": true
+    },
+    {
+      "value": "SyncCommitteeFast",
+      "isUsedInModule": false
+    },
+    {
+      "value": "upgradeLightClientFinalityUpdate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "upgradeLightClientOptimisticUpdate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GenesisData",
+      "isUsedInModule": true
+    },
+    {
+      "value": "LightclientOpts",
+      "isUsedInModule": true
+    },
+    {
+      "value": "LightclientInitArgs",
+      "isUsedInModule": true
+    },
+    {
+      "value": "assertValidFinalityProof",
+      "isUsedInModule": true
+    },
+    {
+      "value": "assertValidSyncCommitteeProof",
+      "isUsedInModule": true
+    },
+    {
+      "value": "assertValidSignedHeader",
+      "isUsedInModule": true
+    },
+    {
+      "value": "isBetterUpdate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "toLightClientUpdateSummary",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientUpdateSummary",
+      "isUsedInModule": false
+    },
+    {
+      "value": "upgradeLightClientHeader",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isSafeLightClientUpdate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isSafeLightClientUpdate",
+      "isUsedInModule": true
+    },
+    {
+      "value": "LightClientUpdateWithSummary",
+      "isUsedInModule": true
+    },
+    {
+      "value": "upgradeLightClientUpdate",
+      "isUsedInModule": true
+    },
+    {
+      "value": "upgradeLightClientStore",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GENESIS_SLOT",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ZERO_PUBKEY",
+      "isUsedInModule": true
+    },
+    {
+      "value": "LightClientTransport",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientRestEvents",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientRestTransport",
+      "isUsedInModule": false
+    },
+    {
+      "value": "chunkifyInclusiveRange",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getCurrentSlot",
+      "isUsedInModule": false
+    },
+    {
+      "value": "slotWithFutureTolerance",
+      "isUsedInModule": false
+    },
+    {
+      "value": "computeEpochAtSlot",
+      "isUsedInModule": false
+    },
+    {
+      "value": "computeSyncPeriodAtEpoch",
+      "isUsedInModule": false
+    },
+    {
+      "value": "timeUntilNextEpoch",
+      "isUsedInModule": false
+    },
+    {
+      "value": "computeDomain",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getForkVersion",
+      "isUsedInModule": false
+    },
+    {
+      "value": "computeForkDataRoot",
+      "isUsedInModule": false
+    },
+    {
+      "value": "computeSigningRoot",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getLcLoggerConsole",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LogHandler",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ILcLogger",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isBetterUpdate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightclientUpdateStats",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isZeroHash",
+      "isUsedInModule": false
+    },
+    {
+      "value": "assertZeroHashes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getParticipantPubkeys",
+      "isUsedInModule": false
+    },
+    {
+      "value": "toBlockHeader",
+      "isUsedInModule": false
+    },
+    {
+      "value": "serializeSyncCommittee",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isEmptyHeader",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isNode",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SYNC_COMMITTEES_DEPTH",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SYNC_COMMITTEES_INDEX",
+      "isUsedInModule": false
+    },
+    {
+      "value": "pruneSetToMax",
+      "isUsedInModule": false
+    }
+  ],
+  "@lodestar/params": [
+    {
+      "value": "ForkWithdrawals",
+      "isUsedInModule": true
+    }
+  ],
+  "@lodestar/params/setPreset": [
+    {
+      "value": "ForkWithdrawals",
+      "isUsedInModule": true
+    }
+  ],
+  "@lodestar/reqresp": [
+    {
+      "value": "ReqResp",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getMetrics",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Metrics",
+      "isUsedInModule": false
+    },
+    {
+      "value": "MetricsRegister",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ReqRespEncoding",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ResponseErrorCode",
+      "isUsedInModule": false
+    },
+    {
+      "value": "collectExactOne",
+      "isUsedInModule": false
+    },
+    {
+      "value": "collectMaxResponse",
+      "isUsedInModule": false
+    },
+    {
+      "value": "formatProtocolID",
+      "isUsedInModule": false
+    },
+    {
+      "value": "parseProtocolID",
+      "isUsedInModule": false
+    },
+    {
+      "value": "EncodedPayloadSsz",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ReqRespHandler",
+      "isUsedInModule": false
+    },
+    {
+      "value": "InboundRateLimitQuota",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ProtocolDefinitionGenerator",
+      "isUsedInModule": false
+    },
+    {
+      "value": "protocolPrefix",
+      "isUsedInModule": false
+    },
+    {
+      "value": "CONTEXT_BYTES_FORK_DIGEST_LENGTH",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ContextBytesFactory",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ContextBytes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientServerErrorCode",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientServerErrorType",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientServerError",
+      "isUsedInModule": false
+    },
+    {
+      "value": "TypeSerializer",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ReqRespRateLimiterOpts",
+      "isUsedInModule": false
+    },
+    {
+      "value": "RpcResponseStatusError",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LodestarGitData",
+      "isUsedInModule": false
+    },
+    {
+      "value": "DEFAULT_PROTOCOL_PREFIX",
+      "isUsedInModule": true
+    },
+    {
+      "value": "ReqRespProtocolModules",
+      "isUsedInModule": true
+    },
+    {
+      "value": "ReqRespOpts",
+      "isUsedInModule": true
+    },
+    {
+      "value": "ReqRespRegisterOpts",
+      "isUsedInModule": true
+    },
+    {
+      "value": "readResultHeader",
+      "isUsedInModule": true
+    },
+    {
+      "value": "readErrorMessage",
+      "isUsedInModule": true
+    },
+    {
+      "value": "readContextBytes",
+      "isUsedInModule": true
+    },
+    {
+      "value": "readContextBytesForkDigest",
+      "isUsedInModule": true
+    },
+    {
+      "value": "BeaconBlockAndBlobsSidecarByRoot",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BlobsSidecarsByRange",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientBootstrap",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientFinalityUpdate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientOptimisticUpdate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientUpdatesByRange",
+      "isUsedInModule": false
+    },
+    {
+      "value": "MetadataV2",
+      "isUsedInModule": false
+    },
+    {
+      "value": "DEFAULT_DIAL_TIMEOUT",
+      "isUsedInModule": true
+    },
+    {
+      "value": "DEFAULT_REQUEST_TIMEOUT",
+      "isUsedInModule": true
+    },
+    {
+      "value": "DEFAULT_TTFB_TIMEOUT",
+      "isUsedInModule": true
+    },
+    {
+      "value": "DEFAULT_RESP_TIMEOUT",
+      "isUsedInModule": true
+    },
+    {
+      "value": "DEFAULT_REQUEST_TIMEOUT",
+      "isUsedInModule": true
+    },
+    {
+      "value": "HandleRequestOpts",
+      "isUsedInModule": true
+    },
+    {
+      "value": "onChunk",
+      "isUsedInModule": false
+    },
+    {
+      "value": "writeSszSnappyPayload",
+      "isUsedInModule": false
+    },
+    {
+      "value": "encodeSszSnappy",
+      "isUsedInModule": false
+    },
+    {
+      "value": "readSszSnappyHeader",
+      "isUsedInModule": false
+    },
+    {
+      "value": "readSszSnappyBody",
+      "isUsedInModule": false
+    },
+    {
+      "value": "MAX_VARINT_BYTES",
+      "isUsedInModule": false
+    }
+  ],
+  "@lodestar/spec-test-util": [
+    {
+      "value": "downloadTests",
+      "isUsedInModule": false
+    },
+    {
+      "value": "downloadGenericSpecTests",
+      "isUsedInModule": false
+    },
+    {
+      "value": "defaultSpecTestsRepoUrl",
+      "isUsedInModule": false
+    },
+    {
+      "value": "DownloadTestsOptions",
+      "isUsedInModule": false
+    },
+    {
+      "value": "DownloadGenericTestsOptions",
+      "isUsedInModule": false
+    },
+    {
+      "value": "toExpandedInputType",
+      "isUsedInModule": false
+    },
+    {
+      "value": "describeDirectorySpecTest",
+      "isUsedInModule": false
+    },
+    {
+      "value": "loadYamlFile",
+      "isUsedInModule": false
+    },
+    {
+      "value": "InputType",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ExpandedInputType",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SpecTestOptions",
+      "isUsedInModule": false
+    },
+    {
+      "value": "parseSszValidTestcase",
+      "isUsedInModule": false
+    },
+    {
+      "value": "parseSszGenericInvalidTestcase",
+      "isUsedInModule": false
+    },
+    {
+      "value": "readYamlNumbersAsStrings",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ValidTestCaseData",
+      "isUsedInModule": false
+    }
+  ],
+  "@lodestar/state-transition": [
+    {
+      "value": "BeaconStateTransitionMetrics",
+      "isUsedInModule": false
+    },
+    {
+      "value": "CachedBeaconStateBellatrix",
+      "isUsedInModule": false
+    },
+    {
+      "value": "CachedBeaconStateDeneb",
+      "isUsedInModule": false
+    },
+    {
+      "value": "CachedBeaconStateExecutions",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconStateBellatrix",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconStateCapella",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconStateDeneb",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconStateExecutions",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconStateCache",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isCachedBeaconState",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isStateBalancesNodesPopulated",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isStateValidatorsNodesPopulated",
+      "isUsedInModule": false
+    },
+    {
+      "value": "EpochContext",
+      "isUsedInModule": false
+    },
+    {
+      "value": "EpochContextImmutableData",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Index2PubkeyCache",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getEffectiveBalanceIncrementsWithLen",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isValidBlsToExecutionChange",
+      "isUsedInModule": false
+    },
+    {
+      "value": "assertValidAttesterSlashing",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BlockExternalData",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getExpectedWithdrawals",
+      "isUsedInModule": false
+    },
+    {
+      "value": "executionPayloadToPayloadHeader",
+      "isUsedInModule": false
+    },
+    {
+      "value": "StateTransitionOpts",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SECONDS_PER_DAY",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BASE_REWARDS_PER_EPOCH",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isSelectionProofValid",
+      "isUsedInModule": false
+    },
+    {
+      "value": "newZeroedBigIntArray",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getUnparticipant"value"s",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isSlashableAttestationData",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isValidAttestationSlot",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getAttesterSlashableIndices",
+      "isUsedInModule": false
+    },
+    {
+      "value": "createAttesterStatus",
+      "isUsedInModule": false
+    },
+    {
+      "value": "FLAG_PREV_TARGET_ATTESTER",
+      "isUsedInModule": false
+    },
+    {
+      "value": "FLAG_PREV_HEAD_ATTESTER",
+      "isUsedInModule": false
+    },
+    {
+      "value": "FLAG_CURR_SOURCE_ATTESTER",
+      "isUsedInModule": false
+    },
+    {
+      "value": "FLAG_CURR_TARGET_ATTESTER",
+      "isUsedInModule": false
+    },
+    {
+      "value": "FLAG_CURR_HEAD_ATTESTER",
+      "isUsedInModule": false
+    },
+    {
+      "value": "FLAG_PREV_SOURCE_ATTESTER_UNSLASHED",
+      "isUsedInModule": false
+    },
+    {
+      "value": "FLAG_PREV_TARGET_ATTESTER_UNSLASHED",
+      "isUsedInModule": false
+    },
+    {
+      "value": "FLAG_PREV_HEAD_ATTESTER_UNSLASHED",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getTotalBalance",
+      "isUsedInModule": false
+    },
+    {
+      "value": "increaseBalance",
+      "isUsedInModule": false
+    },
+    {
+      "value": "decreaseBalance",
+      "isUsedInModule": false
+    },
+    {
+      "value": "blindedOrFullBlockHashTreeRoot",
+      "isUsedInModule": false
+    },
+    {
+      "value": "kzgCommitmentToVersionedHash",
+      "isUsedInModule": false
+    },
+    {
+      "value": "OPAQUE_TX_MESSAGE_OFFSET",
+      "isUsedInModule": false
+    },
+    {
+      "value": "OPAQUE_TX_BLOB_VERSIONED_HASHES_OFFSET",
+      "isUsedInModule": false
+    },
+    {
+      "value": "hasEth1WithdrawalCredential",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isExecutionEnabled",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isMergeTransitionBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isCapellaStateType",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isExecutionBlockBodyType",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getFullOrBlindedPayload",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isExecutionPayload",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isCapellaPayload",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isCapellaPayloadHeader",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getForkVersion",
+      "isUsedInModule": false
+    },
+    {
+      "value": "computeForkDataRoot",
+      "isUsedInModule": false
+    },
+    {
+      "value": "computeCheckpointEpochAtStateSlot",
+      "isUsedInModule": false
+    },
+    {
+      "value": "computeEndSlotAtEpoch",
+      "isUsedInModule": false
+    },
+    {
+      "value": "computeActivationExitEpoch",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getCurrentEpoch",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getPreviousEpoch",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ReadonlyEpochShuffling",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getFinalityDelay",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isInInactivityLeak",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isValidGenesisState",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isValidGenesisValidators",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getGenesisBeaconState",
+      "isUsedInModule": false
+    },
+    {
+      "value": "applyEth1BlockHash",
+      "isUsedInModule": false
+    },
+    {
+      "value": "applyTimestamp",
+      "isUsedInModule": false
+    },
+    {
+      "value": "applyDeposits",
+      "isUsedInModule": false
+    },
+    {
+      "value": "RootCache",
+      "isUsedInModule": false
+    },
+    {
+      "value": "computeProposerIndex",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getNextSyncCommitteeIndices",
+      "isUsedInModule": false
+    },
+    {
+      "value": "computeShuffledIndex",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getRandaoMix",
+      "isUsedInModule": false
+    },
+    {
+      "value": "shuffleList",
+      "isUsedInModule": false
+    },
+    {
+      "value": "proposerShufflingDecisionRoot",
+      "isUsedInModule": false
+    },
+    {
+      "value": "attesterShufflingDecisionRoot",
+      "isUsedInModule": false
+    },
+    {
+      "value": "verifySignatureSet",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getSlotsSinceGenesis",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getCurrentInterval",
+      "isUsedInModule": false
+    },
+    {
+      "value": "computeSyncParticipantReward",
+      "isUsedInModule": false
+    },
+    {
+      "value": "computeBaseRewardPerIncrement",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isSlashableValidator",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getChurnLimit",
+      "isUsedInModule": false
+    },
+    {
+      "value": "computeWeakSubjectivityPeriodCachedState",
+      "isUsedInModule": false
+    },
+    {
+      "value": "computeWeakSubjectivityPeriod",
+      "isUsedInModule": false
+    },
+    {
+      "value": "computeWeakSubjectivityPeriodFromConstituents",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getLatestBlockRoot",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isWithinWeakSubjectivityPeriod",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ETH_TO_GWEI",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getAttesterSlashingsSignatureSets",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getAttesterSlashingSignatureSets",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getIndexedAttestationBigintSignatureSet",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getAttestationWithIndicesSignatureSet",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getIndexedAttestationSignatureSet",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getAttestationsSignatureSets",
+      "isUsedInModule": false
+    },
+    {
+      "value": "verifyProposerSignature",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getProposerSlashingsSignatureSets",
+      "isUsedInModule": false
+    },
+    ... 48 more items
+  ],
+  "@lodestar/types": [
+    {
+      "value": "Bytes4",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Bytes8",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Bytes20",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Bytes48",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Bytes96",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Uint8",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Uint32",
+      "isUsedInModule": false
+    },
+    {
+      "value": "UintNumInf64",
+      "isUsedInModule": false
+    },
+    {
+      "value": "UintBn128",
+      "isUsedInModule": false
+    },
+    {
+      "value": "UintBn256",
+      "isUsedInModule": false
+    },
+    {
+      "value": "WithdrawalIndex",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BLSSecretKey",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ParticipationFlags",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ExecutionAddress",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isBlindedExecution",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isBlindedSignedBeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconBlockBody",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedBeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconState",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Metadata",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ExecutionBlockBody",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ExecutionPayload",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ExecutionPayloadHeader",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BlindedBeaconBlockBody",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BlindedBeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedBlindedBeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "FullOrBlindedExecutionPayload",
+      "isUsedInModule": false
+    },
+    {
+      "value": "FullOrBlindedBeaconBlockBody",
+      "isUsedInModule": false
+    },
+    {
+      "value": "FullOrBlindedBeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "FullOrBlindedSignedBeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BuilderBid",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedBuilderBid",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientHeader",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientBootstrap",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientUpdate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientFinalityUpdate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientOptimisticUpdate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientStore",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedBeaconBlockAndBlobsSidecar",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SSEPayloadAttributes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "AllForksTypes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "AllForksBlindedTypes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "AllForksLightClient",
+      "isUsedInModule": false
+    },
+    {
+      "value": "AllForksExecution",
+      "isUsedInModule": false
+    },
+    {
+      "value": "AllForksSSZTypes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "AllForksExecutionSSZTypes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "AllForksBlindedSSZTypes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "AllForksLightClientSSZTypes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "AllForksBlobsSSZTypes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SyncSubnets",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Metadata",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SyncCommittee",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SyncCommitteeMessage",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SyncCommitteeContribution",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ContributionAndProof",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedContributionAndProof",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SyncAggregatorSelectionData",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SyncAggregate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconBlockBody",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedBeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconState",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientHeader",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientBootstrap",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientUpdate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientFinalityUpdate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientOptimisticUpdate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientStore",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientUpdatesByRange",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Transaction",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ExecutionPayload",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ExecutionPayloadHeader",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconBlockBody",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedBeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconState",
+      "isUsedInModule": false
+    },
+    {
+      "value": "PowBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BlindedBeaconBlockBody",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BlindedBeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedBlindedBeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ValidatorRegistrationV1",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedValidatorRegistrationV1",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BuilderBid",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedBuilderBid",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SSEPayloadAttributes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "FullOrBlindedExecutionPayload",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Withdrawal",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Withdrawals",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BLSToExecutionChange",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BLSToExecutionChanges",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedBLSToExecutionChange",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ExecutionPayload",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ExecutionPayloadHeader",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconBlockBody",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedBeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconState",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BlindedBeaconBlockBody",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BlindedBeaconBlock",
+      "isUsedInModule": false
+    },
+    ... 86 more items
+  ],
+  "@lodestar/utils": [
+    {
+      "value": "RetryOptions",
+      "isUsedInModule": false
+    },
+    {
+      "value": "logLevelNum",
+      "isUsedInModule": false
+    },
+    {
+      "value": "defaultLogLevel",
+      "isUsedInModule": false
+    },
+    {
+      "value": "EpochSlotOpts",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LoggerOptions",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LoggerChildOpts",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LogHandler",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getFormat",
+      "isUsedInModule": false
+    },
+    {
+      "value": "AssertionError",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Err",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isErr",
+      "isUsedInModule": false
+    },
+    {
+      "value": "mapOkResults",
+      "isUsedInModule": false
+    },
+    {
+      "value": "mapOkResultsAsync",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Result",
+      "isUsedInModule": false
+    },
+    {
+      "value": "randBetweenBigInt",
+      "isUsedInModule": false
+    },
+    {
+      "value": "toExpectedCase",
+      "isUsedInModule": false
+    },
+    {
+      "value": "KeyCase",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isSorted",
+      "isUsedInModule": false
+    }
+  ],
+  "@lodestar/validator": [
+    {
+      "value": "default",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ValidatorOptions",
+      "isUsedInModule": false
+    },
+    {
+      "value": "waitForGenesis",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Metrics",
+      "isUsedInModule": false
+    },
+    {
+      "value": "externalSignerPostSignature",
+      "isUsedInModule": false
+    },
+    {
+      "value": "externalSignerUpCheck",
+      "isUsedInModule": false
+    },
+    {
+      "value": "InvalidAttestationError",
+      "isUsedInModule": false
+    },
+    {
+      "value": "InvalidAttestationErrorCode",
+      "isUsedInModule": false
+    },
+    {
+      "value": "InvalidBlockError",
+      "isUsedInModule": false
+    },
+    {
+      "value": "InvalidBlockErrorCode",
+      "isUsedInModule": false
+    },
+    {
+      "value": "InterchangeError",
+      "isUsedInModule": false
+    },
+    {
+      "value": "InterchangeErrorErrorCode",
+      "isUsedInModule": false
+    },
+    {
+      "value": "InterchangeFormat",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SlashingProtectionBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SlashingProtectionAttestation",
+      "isUsedInModule": false
+    },
+    {
+      "value": "MessageSource",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LodestarGitData",
+      "isUsedInModule": true
+    },
+    {
+      "value": "GenesisInfo",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BLSKeypair",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LivenessResponseData",
+      "isUsedInModule": true
+    },
+    {
+      "value": "DoppelgangerState",
+      "isUsedInModule": true
+    },
+    {
+      "value": "ValidatorEvents",
+      "isUsedInModule": true
+    },
+    {
+      "value": "ZERO_ROOT",
+      "isUsedInModule": true
+    },
+    {
+      "value": "getCurrentSlotAround",
+      "isUsedInModule": false
+    },
+    {
+      "value": "TimeItem",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Clock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "urlJoin",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SlashingProtectionLowerBound",
+      "isUsedInModule": true
+    },
+    {
+      "value": "IMinMaxSurround",
+      "isUsedInModule": false
+    }
+  ],
+  "@lodestar/api/builder": [
+    {
+      "value": "registerRoutes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "RouteConfig",
+      "isUsedInModule": true
+    }
+  ],
+  "@lodestar/api/keymanager": [
+    {
+      "value": "ResponseStatus",
+      "isUsedInModule": false
+    },
+    {
+      "value": "KeystoreStr",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SlashingProtectionData",
+      "isUsedInModule": false
+    },
+    {
+      "value": "FeeRecipientData",
+      "isUsedInModule": true
+    },
+    {
+      "value": "GasLimitData",
+      "isUsedInModule": true
+    },
+    {
+      "value": "registerRoutes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "RouteConfig",
+      "isUsedInModule": true
+    }
+  ],
+  "@lodestar/beacon-node/api": [
+    {
+      "value": "getValidatorApi",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getBeaconApi",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getNodeApi",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getEventsApi",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ApiModules",
+      "isUsedInModule": false
+    },
+    {
+      "value": "allNamespaces",
+      "isUsedInModule": false
+    },
+    {
+      "value": "beaconRestApiServerOpts",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconRestApiServerModules",
+      "isUsedInModule": false
+    },
+    {
+      "value": "StateNotFound",
+      "isUsedInModule": false
+    },
+    {
+      "value": "DataNotAvailable",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getRelevantConnection",
+      "isUsedInModule": true
+    }
+  ],
+  "@lodestar/beacon-node/chain": [
+    {
+      "value": "BlockType",
+      "isUsedInModule": false
+    },
+    {
+      "value": "AssembledBlockType",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ProposerPreparationData",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SSZObjectType",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ReorgEventData",
+      "isUsedInModule": false
+    },
+    {
+      "value": "IChainEvents",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ForkChoiceOpts",
+      "isUsedInModule": false
+    },
+    {
+      "value": "persistGenesisResult",
+      "isUsedInModule": false
+    },
+    {
+      "value": "persistAnchorState",
+      "isUsedInModule": false
+    },
+    {
+      "value": "createGenesisBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "StateContextCache",
+      "isUsedInModule": false
+    },
+    {
+      "value": "toCheckpointHex",
+      "isUsedInModule": false
+    },
+    {
+      "value": "toCheckpointKey",
+      "isUsedInModule": false
+    },
+    {
+      "value": "CheckpointStateCache",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getParentRootFromSignedBlock",
+      "isUsedInModule": true
+    },
+    {
+      "value": "processBlocks",
+      "isUsedInModule": true
+    },
+    {
+      "value": "blockRequiresBlobs",
+      "isUsedInModule": false
+    },
+    {
+      "value": "verifyBlockExecutionPayload",
+      "isUsedInModule": true
+    },
+    {
+      "value": "VerifyBlockExecutionPayloadModules",
+      "isUsedInModule": true
+    },
+    {
+      "value": "BlsMultiThreadWorkerPoolModules",
+      "isUsedInModule": false
+    },
+    {
+      "value": "AttestationErrorType",
+      "isUsedInModule": false
+    },
+    {
+      "value": "AttesterSlashingErrorType",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BlobsSidecarErrorCode",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BlobsSidecarErrorType",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BlobsSidecarError",
+      "isUsedInModule": false
+    },
+    {
+      "value": "renderBlockErrorType",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BlockErrorType",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ProposerSlashingErrorType",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SyncCommitteeErrorType",
+      "isUsedInModule": false
+    },
+    {
+      "value": "VoluntaryExitErrorType",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BlsToExecutionChangeErrorType",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientErrorType",
+      "isUsedInModule": true
+    },
+    {
+      "value": "LightClientServerErrorType",
+      "isUsedInModule": true
+    },
+    {
+      "value": "GenesisBuilderKwargs",
+      "isUsedInModule": true
+    },
+    {
+      "value": "sumBits",
+      "isUsedInModule": true
+    },
+    {
+      "value": "blockToLightClientHeader",
+      "isUsedInModule": true
+    },
+    {
+      "value": "SyncAttestedData",
+      "isUsedInModule": true
+    },
+    {
+      "value": "extractParticipation",
+      "isUsedInModule": true
+    },
+    {
+      "value": "isValidAttestationData",
+      "isUsedInModule": true
+    },
+    {
+      "value": "contributionToFast",
+      "isUsedInModule": true
+    },
+    {
+      "value": "OpPoolErrorType",
+      "isUsedInModule": true
+    },
+    {
+      "value": "computeNewStateRoot",
+      "isUsedInModule": false
+    },
+    {
+      "value": "produceBlockBody",
+      "isUsedInModule": false
+    },
+    {
+      "value": "prepareExecutionPayload",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getExecutionPayloadParentHash",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getPayloadAttributesForSSE",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BlockAttributes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "AssembledBodyType",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BlobsResult",
+      "isUsedInModule": false
+    },
+    {
+      "value": "RegenErrorCode",
+      "isUsedInModule": false
+    },
+    {
+      "value": "RegenErrorType",
+      "isUsedInModule": false
+    },
+    {
+      "value": "RegenError",
+      "isUsedInModule": false
+    },
+    {
+      "value": "RegenFnName",
+      "isUsedInModule": false
+    },
+    {
+      "value": "StateCloneOpts",
+      "isUsedInModule": false
+    },
+    {
+      "value": "RegenModules",
+      "isUsedInModule": false
+    },
+    {
+      "value": "verifyPropagationSlotRange",
+      "isUsedInModule": false
+    },
+    {
+      "value": "verifyHeadBlockAndTargetRoot",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getCommitteeIndices",
+      "isUsedInModule": false
+    },
+    {
+      "value": "computeSubnetForSlot",
+      "isUsedInModule": false
+    },
+    {
+      "value": "validateSyncCommitteeSigOnly",
+      "isUsedInModule": false
+    },
+    {
+      "value": "validateGossipSyncCommitteeExceptSig",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BlsMultiThreadWorkerPoolOptions",
+      "isUsedInModule": true
+    }
+  ],
+  "@lodestar/beacon-node/constants": [
+    {
+      "value": "DEPOSIT_CONTRACT_TREE_DEPTH",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GENESIS_START_SHARD",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ATTESTATION_PROPAGATION_SLOT_RANGE",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GOSSIP_MAX_SIZE",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GOSSIP_MAX_SIZE_BELLATRIX",
+      "isUsedInModule": false
+    },
+    {
+      "value": "MAX_CHUNK_SIZE",
+      "isUsedInModule": false
+    },
+    {
+      "value": "MAX_CHUNK_SIZE_BELLATRIX",
+      "isUsedInModule": false
+    }
+  ],
+  "@lodestar/beacon-node/eth1": [
+    {
+      "value": "Eth1ErrorType",
+      "isUsedInModule": true
+    },
+    {
+      "value": "getSafeTDFactor",
+      "isUsedInModule": true
+    },
+    {
+      "value": "Eth1Streamer",
+      "isUsedInModule": false
+    },
+    {
+      "value": "numberToHex",
+      "isUsedInModule": false
+    },
+    {
+      "value": "bytesToHex",
+      "isUsedInModule": false
+    },
+    {
+      "value": "rootHexRegex",
+      "isUsedInModule": true
+    }
+  ],
+  "@lodestar/beacon-node/metrics": [
+    {
+      "value": "HttpMetricsServerOpts",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GaugeChild",
+      "isUsedInModule": true
+    },
+    {
+      "value": "HistogramChild",
+      "isUsedInModule": true
+    }
+  ],
+  "@lodestar/beacon-node/monitoring": [
+    {
+      "value": "MonitoringOptions",
+      "isUsedInModule": false
+    },
+    {
+      "value": "defaultMonitoringOptions",
+      "isUsedInModule": false
+    }
+  ],
+  "@lodestar/beacon-node/network": [
+    {
+      "value": "NetworkEvents",
+      "isUsedInModule": false
+    },
+    {
+      "value": "INetworkEventBus",
+      "isUsedInModule": false
+    },
+    {
+      "value": "PeerSearchOptions",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Libp2p",
+      "isUsedInModule": false
+    },
+    {
+      "value": "NetworkInitModules",
+      "isUsedInModule": false
+    },
+    {
+      "value": "createNodejsLibp2p",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Libp2pOptions",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getGossipHandlers",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getCoreTopicsAtFork",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipEncoding",
+      "isUsedInModule": false
+    },
+    {
+      "value": "IGossipTopic",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipTopicTypeMap",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipTopicMap",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipTopic",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipTypeMap",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipFnByType",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipFn",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipEvents",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipEventEmitter",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipModules",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipBeaconNode",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipValidatorFn",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ValidatorFnsByType",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipJobQueues",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipHandlerFn",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipHandlers",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ResolvedType",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ReqRespHandlers",
+      "isUsedInModule": false
+    },
+    {
+      "value": "RequestTypedContainer",
+      "isUsedInModule": false
+    },
+    {
+      "value": "IReqRespBeaconNode",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ReqRespBeaconNodeModules",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ReqRespBeaconNode",
+      "isUsedInModule": false
+    },
+    {
+      "value": "clearMultiaddrUDP",
+      "isUsedInModule": false
+    },
+    {
+      "value": "prettyPrintPeerId",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getConnection",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isPublishToZeroPeersError",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getDefaultDialer",
+      "isUsedInModule": false
+    },
+    {
+      "value": "PeerManagerOpts",
+      "isUsedInModule": false
+    },
+    {
+      "value": "PeerManagerModules",
+      "isUsedInModule": false
+    },
+    {
+      "value": "PeerManager",
+      "isUsedInModule": false
+    },
+    {
+      "value": "updateGossipsubScores",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ScoreState",
+      "isUsedInModule": false
+    },
+    {
+      "value": "IPeerRpcScoreStore",
+      "isUsedInModule": false
+    },
+    {
+      "value": "PeerRpcScoreStoreModules",
+      "isUsedInModule": false
+    },
+    {
+      "value": "PeerScoreStats",
+      "isUsedInModule": false
+    },
+    {
+      "value": "PeerScoreStat",
+      "isUsedInModule": false
+    },
+    {
+      "value": "PeerRpcScoreStore",
+      "isUsedInModule": false
+    },
+    {
+      "value": "PeerScore",
+      "isUsedInModule": false
+    },
+    {
+      "value": "MetadataOpts",
+      "isUsedInModule": true
+    },
+    {
+      "value": "MetadataModules",
+      "isUsedInModule": true
+    },
+    {
+      "value": "Discv5Opts",
+      "isUsedInModule": true
+    },
+    {
+      "value": "Discv5Events",
+      "isUsedInModule": true
+    },
+    {
+      "value": "GOSSIP_MSGID_LENGTH",
+      "isUsedInModule": false
+    },
+    {
+      "value": "MESSAGE_DOMAIN_INVALID_SNAPPY",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GossipValidationError",
+      "isUsedInModule": false
+    },
+    {
+      "value": "IGossipTopicCache",
+      "isUsedInModule": true
+    },
+    {
+      "value": "PeerDiscoveryOpts",
+      "isUsedInModule": true
+    },
+    {
+      "value": "PeerDiscoveryModules",
+      "isUsedInModule": true
+    },
+    {
+      "value": "RelevantPeerStatus",
+      "isUsedInModule": true
+    },
+    {
+      "value": "getReqRespHandlers",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ReqRespMethod",
+      "isUsedInModule": false
+    },
+    {
+      "value": "RequestTypedContainer",
+      "isUsedInModule": false
+    },
+    {
+      "value": "IReqRespBeaconNode",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ReqRespBlockResponse",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ReqRespBeaconNodeModules",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ReqRespBeaconNodeOpts",
+      "isUsedInModule": false
+    },
+    {
+      "value": "RateLimiter",
+      "isUsedInModule": false
+    },
+    {
+      "value": "RespStatus",
+      "isUsedInModule": false
+    },
+    {
+      "value": "RpcResponseStatusError",
+      "isUsedInModule": false
+    },
+    {
+      "value": "RandBetweenFn",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SubnetsServiceOpts",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GetGossipAcceptMetadataFn",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GetGossipAcceptMetadataFns",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isZeroRoot",
+      "isUsedInModule": false
+    },
+    {
+      "value": "IrrelevantPeerCode",
+      "isUsedInModule": false
+    },
+    {
+      "value": "sortPeersToPrune",
+      "isUsedInModule": false
+    },
+    {
+      "value": "PrioritizePeersOpts",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ExcessPeerDisconnectReason",
+      "isUsedInModule": false
+    },
+    {
+      "value": "validateBeaconBlocksByRangeRequest",
+      "isUsedInModule": true
+    }
+  ],
+  "@lodestar/beacon-node/sync": [
+    {
+      "value": "SyncChainDebugState",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SyncingStatus",
+      "isUsedInModule": false
+    },
+    {
+      "value": "syncStateMetric",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SlotRange",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SyncModules",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BackfillSyncErrorType",
+      "isUsedInModule": true
+    },
+    {
+      "value": "BackfillSyncModules",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BackfillSyncOpts",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BackfillSyncEvent",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BackfillSyncMethod",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BackfillSyncStatus",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Attempt",
+      "isUsedInModule": true
+    },
+    {
+      "value": "BatchState",
+      "isUsedInModule": true
+    },
+    {
+      "value": "shouldReportPeerOnBatchError",
+      "isUsedInModule": true
+    },
+    {
+      "value": "SyncChainModules",
+      "isUsedInModule": true
+    },
+    {
+      "value": "SyncChainStartError",
+      "isUsedInModule": true
+    },
+    {
+      "value": "SyncChainStatus",
+      "isUsedInModule": true
+    },
+    {
+      "value": "RangeSyncModules",
+      "isUsedInModule": true
+    },
+    {
+      "value": "RangeSyncOpts",
+      "isUsedInModule": true
+    }
+  ],
+  "@chainsafe/lodestar": [
+    {
+      "value": "mergeBeaconNodeOptions",
+      "isUsedInModule": false
+    },
+    {
+      "value": "mergeBeaconNodeOptionsWithDefaults",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getBeaconParamsFromArgs",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getBeaconConfig",
+      "isUsedInModule": false
+    },
+    {
+      "value": "parsePartialChainConfigJson",
+      "isUsedInModule": false
+    },
+    {
+      "value": "createFromJSON",
+      "isUsedInModule": false
+    },
+    {
+      "value": "PeerIdJSON",
+      "isUsedInModule": false
+    },
+    {
+      "value": "fetchBootnodes",
+      "isUsedInModule": true
+    },
+    {
+      "value": "WeakSubjectivityFetchOptions",
+      "isUsedInModule": false
+    },
+    {
+      "value": "IParamsArgs",
+      "isUsedInModule": false
+    },
+    {
+      "value": "defaultGlobalPaths",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getEthersSigner",
+      "isUsedInModule": false
+    },
+    {
+      "value": "parse",
+      "isUsedInModule": false
+    },
+    {
+      "value": "stringify",
+      "isUsedInModule": false
+    },
+    {
+      "value": "writeFile",
+      "isUsedInModule": false
+    },
+    {
+      "value": "readFileIfExists",
+      "isUsedInModule": false
+    },
+    {
+      "value": "downloadOrCopyFile",
+      "isUsedInModule": false
+    },
+    {
+      "value": "downloadFile",
+      "isUsedInModule": false
+    },
+    {
+      "value": "yamlSchema",
+      "isUsedInModule": false
+    },
+    {
+      "value": "FileFormat",
+      "isUsedInModule": false
+    },
+    {
+      "value": "readAndGetGitData",
+      "isUsedInModule": false
+    },
+    {
+      "value": "shouldDeleteLogFile",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LOG_FILE_DISABLE_KEYWORD",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LOG_LEVEL_DEFAULT",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LOG_FILE_LEVEL_DEFAULT",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LOG_DAILY_ROTATE_DEFAULT",
+      "isUsedInModule": false
+    },
+    {
+      "value": "sleep",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Lockfile",
+      "isUsedInModule": true
+    },
+    {
+      "value": "initLogger",
+      "isUsedInModule": true
+    },
+    {
+      "value": "getCheckpointFromState",
+      "isUsedInModule": true
+    },
+    {
+      "value": "overwriteEnrWithCliArgs",
+      "isUsedInModule": true
+    },
+    {
+      "value": "beaconExtraOptions",
+      "isUsedInModule": true
+    },
+    {
+      "value": "DebugArgs",
+      "isUsedInModule": true
+    },
+    {
+      "value": "debugOptions",
+      "isUsedInModule": true
+    },
+    {
+      "value": "BeaconPathsPartial",
+      "isUsedInModule": true
+    },
+    {
+      "value": "DEFAULT_BEACON_NODE_URL",
+      "isUsedInModule": false
+    },
+    {
+      "value": "KeymanagerArgs",
+      "isUsedInModule": true
+    },
+    {
+      "value": "keymanagerOptions",
+      "isUsedInModule": true
+    },
+    {
+      "value": "IValidatorPaths",
+      "isUsedInModule": true
+    },
+    {
+      "value": "AccountPaths",
+      "isUsedInModule": true
+    },
+    {
+      "value": "readRemoteSignerDefinition",
+      "isUsedInModule": true
+    },
+    {
+      "value": "writeRemoteSignerDefinition",
+      "isUsedInModule": true
+    },
+    {
+      "value": "ImportStatus",
+      "isUsedInModule": true
+    },
+    {
+      "value": "DeletionStatus",
+      "isUsedInModule": true
+    },
+    {
+      "value": "KeymanagerRestApiServerOpts",
+      "isUsedInModule": true
+    },
+    {
+      "value": "KeymanagerRestApiServerModules",
+      "isUsedInModule": true
+    },
+    {
+      "value": "isVotingKeystore",
+      "isUsedInModule": true
+    }
+  ],
+  "@lodestar/flare": [
+    {
+      "value": "selfSlashAttesterHandler",
+      "isUsedInModule": true
+    },
+    {
+      "value": "selfSlashProposerHandler",
+      "isUsedInModule": true
+    }
+  ],
+  "@lodestar/light-client/spec": [
+    {
+      "value": "isSafeLightClientUpdate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isSafeLightClientUpdate",
+      "isUsedInModule": true
+    },
+    {
+      "value": "LightClientUpdateWithSummary",
+      "isUsedInModule": true
+    },
+    {
+      "value": "upgradeLightClientUpdate",
+      "isUsedInModule": true
+    },
+    {
+      "value": "upgradeLightClientStore",
+      "isUsedInModule": false
+    },
+    {
+      "value": "GENESIS_SLOT",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ZERO_PUBKEY",
+      "isUsedInModule": true
+    }
+  ],
+  "@lodestar/light-client/transport": [
+    {
+      "value": "LightClientTransport",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientRestEvents",
+      "isUsedInModule": false
+    }
+  ],
+  "@lodestar/light-client/utils": [
+    {
+      "value": "chunkifyInclusiveRange",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getCurrentSlot",
+      "isUsedInModule": false
+    },
+    {
+      "value": "slotWithFutureTolerance",
+      "isUsedInModule": false
+    },
+    {
+      "value": "computeEpochAtSlot",
+      "isUsedInModule": false
+    },
+    {
+      "value": "computeSyncPeriodAtEpoch",
+      "isUsedInModule": false
+    },
+    {
+      "value": "timeUntilNextEpoch",
+      "isUsedInModule": false
+    },
+    {
+      "value": "computeDomain",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getForkVersion",
+      "isUsedInModule": false
+    },
+    {
+      "value": "computeForkDataRoot",
+      "isUsedInModule": false
+    },
+    {
+      "value": "computeSigningRoot",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getLcLoggerConsole",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LogHandler",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ILcLogger",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isBetterUpdate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightclientUpdateStats",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isZeroHash",
+      "isUsedInModule": false
+    },
+    {
+      "value": "assertZeroHashes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "getParticipantPubkeys",
+      "isUsedInModule": false
+    },
+    {
+      "value": "toBlockHeader",
+      "isUsedInModule": false
+    },
+    {
+      "value": "serializeSyncCommittee",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isEmptyHeader",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isNode",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SYNC_COMMITTEES_DEPTH",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SYNC_COMMITTEES_INDEX",
+      "isUsedInModule": false
+    },
+    {
+      "value": "pruneSetToMax",
+      "isUsedInModule": false
+    }
+  ],
+  "@lodestar/reqresp/utils": [
+    {
+      "value": "onChunk",
+      "isUsedInModule": false
+    }
+  ],
+  "@lodestar/state-transition/block": [
+    {
+      "value": "processRandao",
+      "isUsedInModule": true
+    },
+    {
+      "value": "processEth1Data",
+      "isUsedInModule": true
+    },
+    {
+      "value": "processOperations",
+      "isUsedInModule": true
+    },
+    {
+      "value": "isValidIndexedAttestationBigint",
+      "isUsedInModule": false
+    },
+    {
+      "value": "isValidIndexedAttestationIndices",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ExecutionPayloadStatus",
+      "isUsedInModule": false
+    },
+    {
+      "value": "DataAvailableStatus",
+      "isUsedInModule": true
+    },
+    {
+      "value": "BlockExternalData",
+      "isUsedInModule": true
+    },
+    {
+      "value": "checkpoint"value"Equals",
+      "isUsedInModule": true
+    }
+  ],
+  "@lodestar/types/allForks": [
+    {
+      "value": "BeaconBlockBody",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedBeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconState",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Metadata",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ExecutionBlockBody",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ExecutionPayload",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ExecutionPayloadHeader",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BlindedBeaconBlockBody",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BlindedBeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedBlindedBeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "FullOrBlindedExecutionPayload",
+      "isUsedInModule": false
+    },
+    {
+      "value": "FullOrBlindedBeaconBlockBody",
+      "isUsedInModule": false
+    },
+    {
+      "value": "FullOrBlindedBeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "FullOrBlindedSignedBeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BuilderBid",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedBuilderBid",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientHeader",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientBootstrap",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientUpdate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientFinalityUpdate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientOptimisticUpdate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientStore",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedBeaconBlockAndBlobsSidecar",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SSEPayloadAttributes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "AllForksTypes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "AllForksBlindedTypes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "AllForksLightClient",
+      "isUsedInModule": false
+    },
+    {
+      "value": "AllForksExecution",
+      "isUsedInModule": false
+    },
+    {
+      "value": "AllForksSSZTypes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "AllForksExecutionSSZTypes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "AllForksBlindedSSZTypes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "AllForksLightClientSSZTypes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "AllForksBlobsSSZTypes",
+      "isUsedInModule": false
+    }
+  ],
+  "@lodestar/types/altair": [
+    {
+      "value": "SyncSubnets",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Metadata",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SyncCommittee",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SyncCommitteeMessage",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedContributionAndProof",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SyncAggregatorSelectionData",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SyncAggregate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconBlockBody",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedBeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconState",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientHeader",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientBootstrap",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientUpdate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientFinalityUpdate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientOptimisticUpdate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientStore",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientUpdatesByRange",
+      "isUsedInModule": false
+    }
+  ],
+  "@lodestar/types/bellatrix": [
+    {
+      "value": "Transaction",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ExecutionPayload",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ExecutionPayloadHeader",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconBlockBody",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedBeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconState",
+      "isUsedInModule": false
+    },
+    {
+      "value": "PowBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BlindedBeaconBlockBody",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BlindedBeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedBlindedBeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedValidatorRegistrationV1",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BuilderBid",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedBuilderBid",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SSEPayloadAttributes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "FullOrBlindedExecutionPayload",
+      "isUsedInModule": false
+    }
+  ],
+  "@lodestar/types/capella": [
+    {
+      "value": "Withdrawal",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Withdrawals",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BLSToExecutionChange",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BLSToExecutionChanges",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedBLSToExecutionChange",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ExecutionPayload",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ExecutionPayloadHeader",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconBlockBody",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedBeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconState",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BlindedBeaconBlockBody",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BlindedBeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedBlindedBeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "FullOrBlindedExecutionPayload",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BuilderBid",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedBuilderBid",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SSEPayloadAttributes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientHeader",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientBootstrap",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientUpdate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientFinalityUpdate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientOptimisticUpdate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientStore",
+      "isUsedInModule": false
+    }
+  ],
+  "@lodestar/types/deneb": [
+    {
+      "value": "KZGProof",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Blobs",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BlobsSidecar",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BlobKzgCommitments",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Polynomial",
+      "isUsedInModule": false
+    },
+    {
+      "value": "PolynomialAndCommitment",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BLSFieldElement",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BlobsSidecarsByRangeRequest",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconBlockAndBlobsSidecarByRootRequest",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ExecutionPayload",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ExecutionPayloadHeader",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconBlockBody",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedBeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedBeaconBlockAndBlobsSidecar",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconState",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BlindedBeaconBlockBody",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BlindedBeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedBlindedBeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "FullOrBlindedExecutionPayload",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BuilderBid",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedBuilderBid",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientHeader",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientBootstrap",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientUpdate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientFinalityUpdate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientOptimisticUpdate",
+      "isUsedInModule": false
+    },
+    {
+      "value": "LightClientStore",
+      "isUsedInModule": false
+    }
+  ],
+  "@lodestar/types/phase0": [
+    {
+      "value": "AttestationSubnets",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconBlockHeaderBigint",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedBeaconBlockHeader",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedBeaconBlockHeaderBigint",
+      "isUsedInModule": false
+    },
+    {
+      "value": "DepositMessage",
+      "isUsedInModule": false
+    },
+    {
+      "value": "DepositData",
+      "isUsedInModule": false
+    },
+    {
+      "value": "DepositEvent",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Eth1Data",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Eth1DataOrdered",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Eth1Block",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Fork",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ForkData",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ENRForkID",
+      "isUsedInModule": false
+    },
+    {
+      "value": "HistoricalBatch",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Validator",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Validators",
+      "isUsedInModule": false
+    },
+    {
+      "value": "AttestationDataBigint",
+      "isUsedInModule": false
+    },
+    {
+      "value": "IndexedAttestationBigint",
+      "isUsedInModule": false
+    },
+    {
+      "value": "PendingAttestation",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SigningData",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Attestation",
+      "isUsedInModule": false
+    },
+    {
+      "value": "AttesterSlashing",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Deposit",
+      "isUsedInModule": false
+    },
+    {
+      "value": "ProposerSlashing",
+      "isUsedInModule": false
+    },
+    {
+      "value": "VoluntaryExit",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedVoluntaryExit",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconBlockBody",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "SignedBeaconBlock",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconState",
+      "isUsedInModule": false
+    },
+    {
+      "value": "CommitteeAssignment",
+      "isUsedInModule": false
+    },
+    {
+      "value": "AggregateAndProof",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Status",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Goodbye",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Ping",
+      "isUsedInModule": false
+    },
+    {
+      "value": "Metadata",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconBlocksByRangeRequest",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BeaconBlocksByRootRequest",
+      "isUsedInModule": false
+    }
+  ],
+  "@lodestar/api/beacon/server": [
+    {
+      "value": "serializeSSEEvent",
+      "isUsedInModule": true
+    }
+  ],
+  "@lodestar/api/beacon": [
+    {
+      "value": "serializeSSEEvent",
+      "isUsedInModule": true
+    },
+    {
+      "value": "registerRoutes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "RouteConfig",
+      "isUsedInModule": true
+    }
+  ],
+  "@lodestar/api/builder/server": [
+    {
+      "value": "registerRoutes",
+      "isUsedInModule": false
+    },
+    {
+      "value": "RouteConfig",
+      "isUsedInModule": true
+    }
+  ],
+  "@lodestar/api/keymanager/server": [
+    {
+      "value": "RouteConfig",
+      "isUsedInModule": true
+    }
+  ],
+  "@lodestar/beacon-node/db": [
+    {
+      "value": "BlockFilterOptions",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BlockArchiveBatchPutBinaryItem",
+      "isUsedInModule": false
+    },
+    {
+      "value": "BlockFilterOptions",
+      "isUsedInModule": false
+    }
+  ],
+  "@lodestar/beacon-node/node": [
+    {
+      "value": "INTEROP_BLOCK_HASH",
+      "isUsedInModule": true
+    },
+    {
+      "value": "INTEROP_TIMESTAMP",
+      "isUsedInModule": true
+    },
+    {
+      "value": "GENESIS_GAS_LIMIT",
+      "isUsedInModule": true
+    },
+    {
+      "value": "GENESIS_BASE_FEE_PER_GAS",
+      "isUsedInModule": true
+    }
+  ]
+}
